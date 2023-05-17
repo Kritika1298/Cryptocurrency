@@ -21,6 +21,7 @@ table = PrettyTable(['Name', 'Ticker', '% of global cap', 'Current', '7.7T(Gold)
 request = requests.get(ticker_url)
 results = request.json()
 data = results['data']
+print('data')
 
 for currency in data:
     name = currency['name']
