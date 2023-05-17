@@ -62,4 +62,5 @@ while True:
     os.system('python coincap_main.py')
     print()
     print('Alert Processing Running... Press CTRL+C to exit')
+    print('Alert Processing Running... Press CTRL+C to exit')
     time.sleep(5000)
