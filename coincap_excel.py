@@ -22,7 +22,7 @@ crypto_sheet.write('H1', 'Week Change')
 
 ticker_url = 'https://api.coinmarketcap.com/v2/ticker/?structure=array'
 
-
+print(ticket_url)
 
 for i in range(10):
     ticker_url = 'https://api.coinmarketcap.com/v2/ticker/?structure=array&start' + str(start)
